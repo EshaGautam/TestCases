@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import Output from '../Output';
+import Output from './Output';
 function Greeting() {
     const[changeText,setChangeText]= useState(false)
     const textChangeHandler =()=>{
